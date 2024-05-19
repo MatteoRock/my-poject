@@ -1,0 +1,178 @@
+html {
+background-color: rgb(228, 226, 226);
+font-family: 'Roboto', sans-serif;
+text-align: center;
+}
+
+h2 {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  position: relative;
+  top: 15px;
+}
+
+:visited{
+  color: rgb(0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+}
+
+a#table_a {
+  border-radius: 7px;
+  color: rgb(223, 223, 223);
+}
+
+a#a_uniq {
+  color: rgba(253, 253, 253, 0.993);
+  background-color: #242525;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+a:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(141, 32, 32);
+  border-radius: 10px;
+}
+
+table {
+font-family: Verdana;
+border-spacing: 2px;
+margin: auto;
+}
+
+table#Htable td:first-child {
+  background-color: rgb(46, 45, 45);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+th {
+  color:white;
+  font-size: 14px;
+  padding: 10px;
+  background-color: #1b2b38d3;
+  border-radius: 7px;
+}
+
+th#thf {
+  text-align: center;
+}
+
+th#th1 {
+height: 25px;
+}
+
+
+
+td {
+  background-color: rgb(31, 31, 31);
+  padding: 10px;
+  text-align: left;
+  color: white;
+  font-size: 13px;
+  border-color: #252424;
+  
+}
+
+td#td2 {
+  color: rgb(240, 240, 240);
+  background-color: rgb(228, 228, 228);
+  color: rgb(31, 30, 30);
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 800px;
+}
+
+.title h1 {
+text-align: center;
+display: block;
+margin: 0 auto;
+font-size: 35px;
+color: rgb(0, 0, 0);
+background-color: rgb(228, 226, 226);
+word-spacing: 17px;
+background-color: rgba(59, 59, 59, 0.205);
+border-radius: 15px;
+width: 400px;
+top: 12px;
+
+}
+
+.title h3 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(228, 226, 226);
+  }
+
+h4 {
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+td#td1{
+background-color: rgb(27, 27, 27);
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 15px;
+font-weight: bold;
+}
+
+td#tdate {
+  background-color: rgb(46, 58, 88);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 13px;
+  width: 85px;
+}
+
+td#td_link {
+  text-align: center;
+  border-radius: 5px;
+}
+
+#timeElement {
+  font-size: 20px; /* Задаем размер шрифта */
+  color: #000; /* Задаем черный цвет текста */
+  padding: 10px 20px; /* Задаем отступы вокруг текста */
+  border-radius: 10px; /* Задаем закругленные углы */
+  font-family: 'Roboto', sans-serif; /* Применяем шрифт Roboto */
+  position: fixed; /* Фиксированное позиционирование */
+  top: -10px; /* Отступ от верхнего края, смещение на 20 пикселей вверх */
+  right: 10px; /* Отступ от правого края */
+  background-image: linear-gradient(45deg, #ff0000, #ff8000, #ffff00, #80ff00, #00ff00, #00ff80, #00ffff, #0080ff, #0000ff); /* Создаем градиентный фон из радужных цветов */
+  background-size: 400% 400%; /* Задаем размер фона */
+  animation: gradientAnimation 15s ease infinite; /* Применяем анимацию к градиентному фону */
+    /* Добавляем рамку черного цвета */
+    border: 2px solid #3d3b3b;
+    color: #fff;
+    /* Изменяем фон на градиент от серого к черному */
+    background-image: linear-gradient(45deg, #333, #000);
+    
+  
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
